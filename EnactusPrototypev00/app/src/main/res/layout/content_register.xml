@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.s1.enactusprototypev00.RegisterActivity"
+    tools:showIn="@layout/activity_register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/enactusLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/enactus_logo_margin_top"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/loginEmailTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="@string/enter_email_address"
+                android:textSize="@dimen/large_text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/enactusLogo" />
+
+            <EditText
+                android:id="@+id/LoginEmailET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                app:layout_constraintStart_toStartOf="@id/loginEmailTV"
+                app:layout_constraintTop_toBottomOf="@id/loginEmailTV" />
+
+            <TextView
+                android:id="@+id/loginPasswordTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="@string/enter_password"
+                android:textSize="@dimen/large_text_size"
+                app:layout_constraintStart_toStartOf="@id/LoginEmailET"
+                app:layout_constraintTop_toBottomOf="@+id/LoginEmailET" />
+
+            <EditText
+                android:id="@+id/loginPasswordET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                app:layout_constraintStart_toStartOf="@id/loginPasswordTV"
+                app:layout_constraintTop_toBottomOf="@id/loginPasswordTV" />
+
+            <TextView
+                android:id="@+id/registerConfirmPasswordTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="@string/confirm_password"
+                android:textSize="@dimen/large_text_size"
+                app:layout_constraintStart_toStartOf="@id/loginPasswordET"
+                app:layout_constraintTop_toBottomOf="@id/loginPasswordET" />
+
+            <EditText
+                android:id="@+id/registerConfirmPasswordET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                app:layout_constraintStart_toStartOf="@id/loginPasswordET"
+                app:layout_constraintTop_toBottomOf="@id/registerConfirmPasswordTV" />
+
+            <TextView
+                android:id="@+id/registerYOBTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="@string/enter_year_of_birth"
+                android:textSize="@dimen/large_text_size"
+                app:layout_constraintStart_toStartOf="@id/registerConfirmPasswordET"
+                app:layout_constraintTop_toBottomOf="@id/registerConfirmPasswordET" />
+
+            <EditText
+                android:id="@+id/registerYOBET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="@string/hint_year_of_birth"
+                android:inputType="number"
+                app:layout_constraintStart_toStartOf="@id/registerYOBTV"
+                app:layout_constraintTop_toBottomOf="@id/registerYOBTV" />
+
+            <TextView
+                android:id="@+id/registerTermsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/terms_title"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/registerTermsSV"
+                app:layout_constraintStart_toStartOf="@id/registerTermsSV" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerTermsCheckBox"
+                android:text="@string/register_checkbox_agree"
+                android:onClick="registerTermsClick"
+                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toStartOf="@id/registerTermsSV"
+                app:layout_constraintTop_toBottomOf="@id/registerTermsSV"
+                />
+
+            <Button
+                android:id="@+id/registerConfirmBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:onClick="registerConfirmClick"
+                android:text="@string/register"
+                android:background="@color/yellow700"
+                app:layout_constraintStart_toStartOf="@id/registerTermsCheckBox"
+                app:layout_constraintTop_toBottomOf="@id/registerTermsCheckBox" />
+
+            <ScrollView
+                android:layout_width="300dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="75dp"
+                android:background="@android:color/background_light"
+                android:padding="16dp"
+                android:id="@+id/registerTermsSV"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/LoginEmailET"
+                app:layout_constraintTop_toBottomOf="@id/enactusLogo">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/terms_and_conditions" />
+
+            </ScrollView>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

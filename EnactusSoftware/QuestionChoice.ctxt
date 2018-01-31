@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=inID
+comment0.target=void\ QuestionChoice(char)
+comment1.params=
+comment1.target=char\ getID()
+comment2.params=inText
+comment2.target=void\ setText(java.lang.String)
+comment3.params=inFeedback
+comment3.target=void\ setFeedback(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getText()
+comment5.params=
+comment5.target=java.lang.String\ getFeedback()
+numComments=6
