@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Enactus Prototype v00</string>
+    <string name="action_settings">Settings</string>
+    <string name="register_button">Register</string>
+    <string name="login_button">Login</string>
+    <string name="about_button">About</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_about">About</string>
+    <string name="terms_and_conditions">THIS SOFTWARE IS PROVIDED BY YOURKIT "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL YOURKIT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
+</string>
+    <string name="title_activity_login">Login</string>
+    <string name="enter_email_address">Enter Email Address:</string>
+    <string name="hint_email">Email</string>
+    <string name="enter_password">Enter Password:</string>
+    <string name="hint_password">Password</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="enter_year_of_birth">Enter Year of Birth</string>
+    <string name="hint_year_of_birth">Year of Birth</string>
+    <string name="terms_title">TERMS AND CONDITIONS</string>
+    <string name="register_checkbox_agree">I agree to the Terms and Conditions</string>
+    <string name="register">Register</string>
+
+    <string name="title_activity_hub">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_module1_hub">Module 1</string>
+    <string name="title_activity_game1">GameActivity1</string>
+    <string name="game1_question_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices, mauris eget scelerisque tempus, ipsum purus eleifend risus, sit amet malesuada risus arcu vel nisi. Nulla eget purus ligula. Sed condimentum posuere sem, vel vehicula elit feugiat quis. Vivamus tellus sapien, rutrum nec mauris eu, bibendum ornare justo. Fusce et pellentesque nulla. Pellentesque sed fermentum eros. Nam nec molestie eros. Nam a venenatis eros, vitae fringilla quam. Pellentesque tristique justo non ante suscipit pulvinar. Suspendisse ipsum tellus, rhoncus quis sagittis non, accumsan et magna. Donec consectetur suscipit augue, vel euismod purus tincidunt quis. Praesent vestibulum dolor eu purus interdum, ut ultrices ante lobortis. Donec et dolor eget nibh hendrerit mollis vel eget risus. \n\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque consequat quam vitae commodo commodo. Proin convallis, velit nec vulputate mattis, erat tortor ullamcorper nisl, sit amet efficitur metus arcu non ligula. Maecenas bibendum iaculis magna. Integer nisi leo, cursus vel magna id, vulputate sodales ipsum. Nullam semper feugiat diam at ullamcorper. Integer placerat id turpis nec semper. Phasellus cursus sagittis nunc, non dapibus odio laoreet non. Pellentesque semper dolor dapibus, commodo tortor at, auctor ligula. Maecenas malesuada quam non pretium lobortis. Aenean pulvinar varius tortor, ac commodo dolor commodo at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer suscipit ut urna sit amet lacinia. Nam quis turpis interdum, molestie ante vel, ornare turpis. Morbi sed purus odio. Curabitur sed cursus mi, mollis pretium sapien. Phasellus eget lectus eu nunc commodo vestibulum vitae ut erat. Quisque tincidunt eget ante a bibendum. Morbi maximus tortor libero, quis hendrerit nibh consectetur at. Quisque lobortis erat vitae est mattis, a blandit ex aliquet. Pellentesque ac pulvinar velit. Suspendisse sit amet efficitur tellus. Nullam commodo, metus nec molestie rutrum, risus risus rutrum justo, at malesuada tortor ipsum sit amet ante. Quisque quis mollis lacus. Donec quis sodales lectus. Aliquam aliquam, augue vitae volutpat rhoncus, felis urna facilisis lectus, nec suscipit felis tortor sed metus. Praesent convallis felis nec facilisis egestas. Nam tincidunt euismod consequat. In ligula lacus, aliquam sit amet turpis ut, vulputate tristique lectus. Praesent et ornare tellus. Pellentesque in placerat orci. Integer vel neque sit amet magna finibus laoreet quis in lorem. \n\nProin tempus purus sed lacus auctor rhoncus. Vivamus vel lacinia dolor. Ut sed elementum dui. Proin faucibus ipsum eu dignissim pretium. Donec eget aliquam quam. Nam ac tincidunt justo. Nunc bibendum feugiat dui, sed faucibus mi egestas non. Sed feugiat malesuada est vel pretium. Fusce non volutpat enim. Integer mollis lobortis nibh, vitae sodales ex facilisis a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ornare ipsum. Sed feugiat vel nisi vitae mollis. Sed eu lectus at est commodo tincidunt. Curabitur dictum volutpat consectetur. Duis ut nisl auctor, ornare massa et, feugiat lectus. Duis euismod magna nulla, vitae laoreet diam scelerisque in. Cras in enim scelerisque, rhoncus nulla sit amet, aliquet metus. Donec sit amet massa tellus. Vivamus efficitur lacus nec mauris molestie lobortis. Phasellus.</string>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+</resources>
