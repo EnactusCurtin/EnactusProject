@@ -1,0 +1,4 @@
+#Wed Feb 07 15:42:34 AWST 2018
+base.0=C\:\\Users\\thanavit\\Documents\\EnactusProject\\EnactusProject\\EnactusPrototypev00\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
